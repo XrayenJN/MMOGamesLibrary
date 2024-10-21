@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="developer" optional="YES" attributeType="String"/>
+        <attribute name="gameURL" optional="YES" attributeType="String"/>
+        <attribute name="genre" optional="YES" attributeType="String"/>
+        <attribute name="graphics" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="memory" optional="YES" attributeType="String"/>
+        <attribute name="os" optional="YES" attributeType="String"/>
+        <attribute name="platform" optional="YES" attributeType="String"/>
+        <attribute name="processor" optional="YES" attributeType="String"/>
+        <attribute name="profileURL" optional="YES" attributeType="String"/>
+        <attribute name="publisher" optional="YES" attributeType="String"/>
+        <attribute name="releaseDate" optional="YES" attributeType="String"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="storage" optional="YES" attributeType="String"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailImage" optional="YES" attributeType="Binary"/>
+        <attribute name="thumbnailIsDownloading" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="thumbnailShown" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NewsAPI" representedClassName="NewsAPI" syncable="YES" codeGenerationType="class">
+        <attribute name="articleContent" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailImage" optional="YES" attributeType="Binary"/>
+        <attribute name="thumbnailIsDownloading" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="thumbnailShown" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Screenshot" representedClassName="Screenshot" syncable="YES">
+        <attribute name="gameID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="screenshotID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="screenshotImage" optional="YES" attributeType="Binary"/>
+        <attribute name="screenshotIsDownloading" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="screenshotShown" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="screenshotURL" optional="YES" attributeType="String"/>
+    </entity>
+</model>
